@@ -1,10 +1,60 @@
 h2 {
   text-transform: lowercase;
   font-weight: lighter;
-  color: yellow;
+  color: cyan;
 }
 
 a {
   text-decoration: none;
   color: red;
+}
+
+/* ELEMENT SELECTOR */
+p {
+  color: gold;
+  text-decoration: underline;
+}
+
+section {
+  border: 1px dotted brown;
+}
+
+/* ID SELECTOR */
+#lead-paragraph {
+  font-size: 18px;
+  font-weight: bolder;
+  text-transform: capitalize;
+  color: blue;
+}
+
+/* CLASS SELECTOR */
+.username {
+  border-color: red;
+  border-width: 1px;
+  border-style: solid;
+}
+
+.form-field {
+  background-color: yellow;
+}
+
+/* GROUPING SELECTORS */
+section, article {
+  font-size: 50px;
+  font-style: italic;
+}
+
+p, div, article, section, main {
+  margin-bottom: 30px;
+}
+
+
+/* PARENT > CHILD SELECTOR */
+div > span {
+  text-decoration: underline;
+}
+
+/* PSEUDO SELECTORS */
+a:hover {
+  text-decoration: overline;
 }
